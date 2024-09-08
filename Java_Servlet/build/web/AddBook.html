@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Add Book</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <h1>Namaste Book Store</h1>
+    <form action="addbook" method="GET">
+        <label for="title">Title:</label>
+        <input type="text" id="title" name="title" required><br><br>
+
+        <label for="category">Category:</label>
+        <select id="category" name="category" required>
+            <option value="Horror">Horror</option>
+            <option value="Romance">Romance</option>
+            <option value="Si-Fi">Si-Fi</option>
+            <option value="Fiction">Fiction</option>
+            <option value="Adult">Adult</option>
+        </select><br><br>
+
+        <label for="author">Author:</label>
+        <input type="text" id="author" name="author" required><br><br>
+
+        <label for="publisher">Publisher:</label>
+        <input type="text" id="publisher" name="publisher" required><br><br>
+
+        <label for="price">Price:</label>
+        <input type="text" id="price" name="price" required><br><br>
+
+        <input type="submit" value="Add Book">
+    </form>
+</body>
+</html>
